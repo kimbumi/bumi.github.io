@@ -161,11 +161,20 @@ Push가 성공적으로 됐다면 내 깃헙 레파지토리에 이렇게 폴더
 
 ## 7. 변동 사항 Git Push로 업데이트 하기
 이제 내 project에 덮어씌운 테마 파일들을 내 웹 서버에 적용시키기 위해서는 터미널에서 몇가지 커맨드를 입력하면 된다.
+
 {% highlight js %}
 $ git add .
-$ git commit -m "커밋 메세지"
+{% endhighlight %}
+
+
+{% highlight js %}
+$ git commit -m 'commit message'
+{% endhighlight %}
+
+{% highlight js %}
 $ git push origin master
 {% endhighlight %}
+
 축하한다. 이렇게 푸쉬를 끝냈다면 내 웹사이트에 테마 적용이 돼있을것이다. 난 닉아담스는 아니다.
 <div class="gallery-box">
   <div class="gallery">

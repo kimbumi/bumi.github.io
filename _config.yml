@@ -16,7 +16,7 @@ author-name: Bumi Kim
 hero:
   image: '/images/heroimg.jpg'
   title: Bumi Kim #Nick Adams
-  description: a UX designer who writes code. #Thoughts, stories and ideas.
+  description: a UX designer #Thoughts, stories and ideas.
 
 social:
 - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/bumi-kim/"}

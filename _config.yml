@@ -1,30 +1,28 @@
 #-------------------------------
 # General Site Settings
-title: Sanara
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Hello, my name is Nick Adams. I’m a Product Designer and Photographer based in NY. I like being at the center of events, being free and enjoying every moment.
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "https://sanara.netlify.app/" # The base hostname & protocol for your site, e.g. http://example.com
+title: Bumi.log
+logo: /images/logo2.png # You can add own logo. For example '/images/logo.png'.
+description: Hi, I'm Bumi Kim. I'm a UX designer based in Korea. Currently working on a project for AI composer at a startup company. I also write code for web design, 3d render and animation.
+baseurl: "https://bumikim.netlify.app/blog" # The subpath of your site, e.g. /blog
+url: "https://bumikim.netlify.app/" # The base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
 # Author Settings
-author-name: Nick Adams
+author-name: Bumi Kim
 
 #-------------------------------
 # Hero Settings
 hero:
-  image: '/images/70.jpg'
-  title: Nick Adams
-  description: Thoughts, stories and ideas.
+  image: '/images/hero.jpg'
+  title: Bumi Kim #Nick Adams
+  description: a UX designer who writes code. #Thoughts, stories and ideas.
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-github", link: "https://github.com"}
-- {icon: "ion-logo-vimeo", link: "https://vimeo.com/"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/bumi-kim/"}
+- {icon: "ion-logo-github", link: "https://github.com/kimbumi"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCfgkLZpQJB0mxIP5SgsNNhg/channels"}
+- {icon: "ion-logo-instagram", link: "https://www.instagram.com/bumikimm/"}
 
 # Example of adding a new link to the author section and footer - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -33,8 +31,8 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contact form
-  description: Sanara comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  email: bumikim26@gmail.com # Add your email for contact form
+  description: Let's talk! I'd love to hear from you about any question, project or job position. Cheers! # Add a description of your form
 
 # NOTE
 # Sanara comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
@@ -53,8 +51,8 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Newsletter
 mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
-mailchimp-title: Get Interesting News # Add your title.
-mailchimp-text: Subscribe to our newsletter and we’ll send you the emails of latest posts. # Add your description.
+mailchimp-title: Get new post # Add your title.
+mailchimp-text: Subscribe to my blog and you can get the emails of latest posts! # Add your description.
 mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 
@@ -67,7 +65,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
-paginate: 9
+paginate: 5
 paginate_path: "/page/:num"
 
 # Pages Path

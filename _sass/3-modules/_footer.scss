@@ -71,16 +71,18 @@
     padding: 8px 16px;
     margin: 0 4px 4px 0;
     font-family: $heading-font-family;
+    border-radius: 50px;
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 1;
     font-weight: 600;
     text-transform: uppercase;
     border: 2px solid rgba(255,255,255,0.1);
-    color: $gray;
+    color: $gray-lightest;
     &:hover {
       border-color: $brand-color;
       color: $white;
+      background-color: rgba(18,184,134,0.1);
     }
   }
 }

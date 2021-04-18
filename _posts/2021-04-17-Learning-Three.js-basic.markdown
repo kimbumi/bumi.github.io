@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Life shrinks or expands in proportion to one’s courage
-date:   2018-11-08 15:01:35 +0300
-image:  '/images/24.jpg'
-tags:   [travel, notes]
+title:  Basic Three.js - How to create the scene, camera, object, renderer
+date:   2021-04-17 15:00:09 GMT+0800
+image:  '/images/02.jpg'
+tags:   [three.js, blog]
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, silaboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. In qua quid est boni praeter summam voluptatem, et eam cur post. Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Natura sic ab iis investigata est, ut nulla pars caelo deinde optimum.
 
-![Dreams come true]({{site.baseurl}}/images/40.jpg)
+![Beautiful place]({{site.baseurl}}/images/40.jpg)
 *Dreams come true / [Pexels](https://www.pexels.com/)*
 
 Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Iam insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Calatino quae plurimas amico disputari.
@@ -37,6 +37,6 @@ Disputari quid boni praeter summam voluptatem, et eam sempiternam. Cur post Tare
 
 In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deinde etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi a sapiente non potest.
 
-<p><iframe src="https://www.youtube.com/embed/lfrEEe7QDJk" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/_Q673Utczgs" frameborder="0" allowfullscreen></iframe></p>
 
 Ego quoque, inquit, didicerim libentius si quid attuleris, quam te reprehenderim. Iam insipientes alios ita esse, ut nullo modo ad sapientiam possent pervenire, alios, qui possent, si id egissent, sapientiam consequi. Id quaeris, inquam, in quo, utrum respondero, verses te huc atque illuc necesse est. Sed quid ages tandem, si utilitas ab amicitia, ut fit saepe, defecerit? Sed isti ipsi, qui voluptate et dolore omnia metiuntur, nonne clamant sapienti plus semper adesse quod velit quam quod nolit? Quae quidem sapientes sequuntur duce natura tamquam videntes; Quod enim dissolutum sit, id esse sine sensu, quod autem sine sensu sit, id nihil ad nos pertinere omnino. Idne consensisse de Calatino plurimas gentis arbitramur, primarium populi fuisse, quod praestantissimus fuisset in conficiendis voluptatibus? Utram tandem linguam nescio, quod dicit epicurus etiam.

@@ -12,13 +12,13 @@ $global-transition: all .3s;
 // *****************
 // Color Variables
 // *****************
-$brand-color: #daa520;
-$dark: #1d1d1d;
-$darkest: #000;
+$brand-color: rgb(18, 184, 134);// #8565fc;;
+$dark: rgb(52, 58, 64);// #1d1d1d;
+$darkest: #202124;// #000;
 $blue-dark: #16151f;
-$gray: #83807a;
-$gray-light: #f8f8f8;
-$gray-lighter: #eee;
+$gray: #abb2bf; // #9aa0a6; // #83807a;
+$gray-light: #f8f8fc;
+$gray-lighter:#e8eaed;// #eee;
 $gray-lightest: #f1f1f1;
 $white: #fff;
 
@@ -36,12 +36,12 @@ $base-font-size: 18px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: 400;
-$base-font-family: 'Proza Libre', sans-serif;
+$base-font-family: 'Source Sans Pro', sans-serif;
 $base-line-height: 1.7;
 
 // Headings
 $heading-font-weight: 700;
-$heading-font-family: 'Teko', sans-serif; 
+$heading-font-family: 'Source Sans Pro', sans-serif;
 $heading-color: $text-color;
 
 $font-size-h1:  36px;

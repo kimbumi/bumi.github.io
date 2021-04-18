@@ -23,11 +23,11 @@
 .logo__link {
   position: relative;
   font-family: $heading-font-family;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1;
   font-weight: 700;
   color: $white;
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
   letter-spacing: 1px;
   &:hover {

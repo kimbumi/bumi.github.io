@@ -28,7 +28,7 @@
   }
 
   @media only screen and (max-width: $mobile) {
-    min-height: 280px;
+    min-height: 320px;
   }
 }
 
@@ -59,7 +59,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.05), $dark);
+    //background: linear-gradient(rgba(0,0,0,0.01), $dark);
     transition: opacity .35s ease;
     pointer-events: none;
   }
@@ -90,7 +90,7 @@
 .article__title {
   margin: 12px 0 16px;
   font-size: 48px;
-  line-height: 0.85;
+  line-height: 1.2;
   text-align: center;
   pointer-events: all;
 
@@ -109,7 +109,7 @@
   }
 
   @media only screen and (max-width: $mobile) {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
@@ -136,21 +136,28 @@
     text-transform: uppercase;
     color: $white;
     pointer-events: all;
+    border: 2px solid $gray-light;
+    border-radius: 50px;
+    padding: 8px 16px;
+    margin: 0 4px 4px 0;
 
     &:hover {
-      color: $brand-color;
+      border-color: $brand-color;
+      color: $white;
+      background-color: rgba(18,184,134,0.1);
     }
 
     &::after {
       content: ",";
       margin: 0 2px;
-      display: inline-block;
+      display: none;//inline-block;
       color: $white;
     }
 
     &:last-child {
       &::after {
         content: "";
+        display:none;
       }
     }
   }
@@ -191,10 +198,11 @@
     font-family: $heading-font-family;
     font-size: 15px;
     line-height: 20px;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     color: $white;
     pointer-events: all;
+    display: none;
 
     &:hover {
       color: $brand-color;

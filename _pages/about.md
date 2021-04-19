@@ -59,7 +59,7 @@ image: '/images/heroimg.jpg'
 <br>
 <br>
 
-<a href="">
+<a href="/images/about/BumiKim_CV.pdf" target="_blank">
       <button class="button button--primary">Download CV</button>
 </a>
 

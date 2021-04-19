@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Jekyll 테마를 이용해 Github 블로그 만들기(2) - 커스터마이징
+title:  Jekyll 테마와 Github을 이용해 Netlify 블로그 만들기(2) - 커스터마이징
 date:   2021-04-17 15:55:09 GMT+0800
 image:  '/images/03.jpg'
-tags:   [jekyll, blog]
+tags:   [jekyll, netlify, blog]
 ---
 investigatio rerum occultissimarum. Natura sic ab iis investigata est, ut nulla pars caelo deinde optimum.
 

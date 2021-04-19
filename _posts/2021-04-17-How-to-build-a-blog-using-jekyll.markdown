@@ -70,6 +70,7 @@ $ bundle install
 </div>
 
 * 프로젝트에 깃 생성하기
+
 생성한 레파지토리의 주소를 아래의 사진처럼 클론한다
 <div class="gallery-box">
   <div class="gallery">
@@ -142,7 +143,7 @@ Push가 성공적으로 됐다면 내 깃헙 레파지토리에 이렇게 폴더
     <img src="/images/01/01jekylltheme.jpg">
   </div>
 </div>
-<a href="https://jekyllthemes.io/">🔗https://jekyllthemes.io/</a><br><br>
+🔗<a href="https://jekyllthemes.io/">https://jekyllthemes.io/</a><br><br>
 구글에 jekyll테마 검색하면 정말 많은 테마들이 있다. 무료도 있고 유로도 있는데 나는 블로그 + 포트폴리오를 합친 형태로 커스터마이징 할 생각이여서 좀 더 내 입맛에 맞는 걸 찾다보니 유로 테마를 구매했다.
 
 ## 6. Jekyll 테마 내 블로그에 적용하기

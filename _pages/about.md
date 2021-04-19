@@ -2,10 +2,14 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/60.jpg'
+image: '/images/heroimg.jpg'
 ---
 
-Hi, my name is Nick Adams. I’m a Product Designer and Photographer based in NY. I like being at the center of events, being free and enjoying every moment. Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. In qua quid est boni praeter summam voluptatem, et eam cur post. Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Natura sic ab iis investigata est, ut nulla.
+Hi, my name is Bumi Kim. I'm a UX designer based in Korea.
+
+<a href="">
+      <button class="button button--primary">Download CV</button>
+</a>
 
 <div class="gallery-box">
   <div class="gallery">

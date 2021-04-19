@@ -24,23 +24,22 @@ image: '/images/heroimg.jpg'
 
 <br>
 
-### 👩🏻‍💻 I've been going through
+#### 👩🏻‍💻 I've been working
 
-## Upvote
+### Upvote
 ##### UX/UI designer, 2021.Mar - Present
 <hr>
 
-## Freelance photographer
+### Freelance photographer
 ##### Photographer, 2018.May - 2020.Feb
 <hr>
 
-## Online shop
+### Online shop
 ##### Owner, 2016.May - 2017.Mar
 <hr>
 
-<br>
 
-### 🦄 My skills
+#### 🦄 My skills
 <div>
   <p class="tag-skill inline-block">User research</p>
   <p class="tag-skill inline-block">Wireframing</p>
@@ -52,12 +51,11 @@ image: '/images/heroimg.jpg'
 </div>
 <hr>
 
-<br>
-
-### 🌏 Languages I speak in
+#### 🌏 Languages I speak in
 * Korean
 * English
 * Chinese
+<br>
 <br>
 <br>
 

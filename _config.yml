@@ -3,7 +3,7 @@
 title: Bumi.log
 logo: /images/logo2.png # You can add own logo. For example '/images/logo.png'.
 description: Hi, I'm Bumi Kim. I'm a UX designer based in Korea. I also write code for web design, 3d render and animation.
-baseurl: "/blog" # The subpath of your site, e.g. /blog
+baseurl: /blog # The subpath of your site, e.g. /blog
 url: "https://bumikim.netlify.app" # The base hostname & protocol for your site, e.g. http://example.com
 
 

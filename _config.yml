@@ -16,7 +16,7 @@ author-name: Bumi Kim
 hero:
   image: '/images/heroimg.jpg'
   title: Bumi Kim #Nick Adams
-  description: a UX designer #Thoughts, stories and ideas.
+  description: a Designer, coder #Thoughts, stories and ideas.
 
 social:
 - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/bumi-kim/"}
@@ -45,7 +45,7 @@ disqus-identifier: bumikim # Add your shortname for Disqus Comment. For example 
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: G-38G56JY67C # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------

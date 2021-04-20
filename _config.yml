@@ -32,7 +32,7 @@ social:
 # Contact Settings
 contact:
   email: bumikim26@gmail.com # Add your email for contact form
-  description: Let's talk! I'd love to hear from you about any question or project. Cheers! # Add a description of your form
+  description: Let's talk! I'd love to hear from you about any question or projects. Cheers! # Add a description of your form
 
 # NOTE
 # Sanara comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
@@ -53,7 +53,7 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 mailchimp: true # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
 mailchimp-title: Get new post # Add your title.
 mailchimp-text: Subscribe to my blog and you can get the emails of latest posts! # Add your description.
-mailchimp-identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp-identifier: https://us1.admin.mailchimp.com/lists/settings/defaults?id=1654882 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 
 #-------------------------------

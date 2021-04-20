@@ -5,7 +5,7 @@ permalink: /about/
 image: '/images/heroimg.jpg'
 ---
 
-> I'm a UX designer Bumi Kim. Outside work I'm a film lover, traveler and coffee lover! I do write code, make YouTube videos for fun. And I support 🌈 women's empowerment 💪🏼
+> Outside work I'm a film lover, traveler and coffee lover! I do write code, make YouTube videos for fun. And I support 🌈 women's empowerment 💪🏼
 >
 <br>
 
@@ -55,7 +55,6 @@ image: '/images/heroimg.jpg'
 * Korean
 * English
 * Chinese
-<br>
 <br>
 <br>
 

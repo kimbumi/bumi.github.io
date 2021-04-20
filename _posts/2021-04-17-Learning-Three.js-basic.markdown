@@ -2,7 +2,7 @@
 layout: post
 title:  Basic Three.js - How to create the scene, camera, object, renderer
 date:   2021-04-17 15:00:09 GMT+0800
-image:  '/images/02.jpg'
+image:  '/images/02/02.jpg'
 tags:   [three.js, blog]
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, silaboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. In qua quid est boni praeter summam voluptatem, et eam cur post. Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Natura sic ab iis investigata est, ut nulla pars caelo deinde optimum.

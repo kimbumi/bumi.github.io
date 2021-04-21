@@ -4,6 +4,9 @@ title:  Jekyll 테마와 Github을 이용해 Netlify 블로그 만들기(1) - �
 date:   2021-04-17 14:55:09 GMT+0800
 image:  '/images/01/01jekyllbackground.jpg'
 tags:   [jekyll, netlify, blog]
+sitemap :
+changefreq : daily
+priority : 1.0
 ---
 
 ![Beautiful place]({{site.baseurl}}/images/01/01jekyllbackground.jpg)

@@ -16,7 +16,7 @@ For this time, I didn't use any bundlers, modules. Because it's just to demonstr
 ![Three.js]({{site.baseurl}}/images/02/download.jpg)
 *Code-download / [Three.js](https://threejs.org/)*
 
-🔗 <a href="https://threejs.org/" traget="_blank">https://threejs.org/</a>
+🔗 <a href="https://threejs.org/" target="_blank">https://threejs.org/</a>
 <br>
 Hit the download as you see in the above picture and it will give you .zip file
 
@@ -75,7 +75,7 @@ const scene = new THREE.Scene();
 
 #### 2. Mesh
 
-🔗 <a href="https://threejs.org/docs/index.html?q=mesh#api/en/objects/Mesh.geometry" traget="_blank">Mesh</a>
+🔗 <a href="https://threejs.org/docs/index.html?q=mesh#api/en/objects/Mesh.geometry" target="_blank">Mesh</a>
 , class representing triangular polygon mesh based objects. Also serves as a base for other classes such as SkinnedMesh.
 
 {% highlight js%}
@@ -86,9 +86,9 @@ const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
 const mesh = new THREE.Mesh( geometry, material );
 scene.add( mesh );
 {% endhighlight %}
-🔗 <a href="https://threejs.org/docs/index.html?q=box#api/en/geometries/BoxGeometry" traget="_blank">BoxGeometry</a>
+🔗 <a href="https://threejs.org/docs/index.html?q=box#api/en/geometries/BoxGeometry" target="_blank">BoxGeometry</a>
 <br>
-🔗 <a href="https://threejs.org/docs/index.html?q=meshbasi#api/en/materials/MeshBasicMaterial" traget="_blank">MeshBasicMaterial</a>
+🔗 <a href="https://threejs.org/docs/index.html?q=meshbasi#api/en/materials/MeshBasicMaterial" target="_blank">MeshBasicMaterial</a>
 
 My code for mesh and don't forget to add to the scene! always!
 {% highlight js%}
@@ -101,7 +101,7 @@ scene.add(mesh);
 {% endhighlight %}
 
 #### 3. Camera
-🔗 <a href="https://threejs.org/docs/index.html?q=camera#api/en/cameras/PerspectiveCamera" traget="_blank">PerspectiveCamera</a>, this projection mode is designed to mimic the way the human eye sees. It is the most common projection mode used for rendering a 3D scene.
+🔗 <a href="https://threejs.org/docs/index.html?q=camera#api/en/cameras/PerspectiveCamera" target="_blank">PerspectiveCamera</a>, this projection mode is designed to mimic the way the human eye sees. It is the most common projection mode used for rendering a 3D scene.
 <br>
 <br>
 ** Arguments
@@ -131,7 +131,7 @@ scene.add(camera);
 
 #### 4. Renderer
 
-🔗 <a href="https://threejs.org/docs/index.html?q=renderer#api/en/renderers/WebGLRenderer" traget="_blank">WebGLRenderer</a> it takes canvas property.
+🔗 <a href="https://threejs.org/docs/index.html?q=renderer#api/en/renderers/WebGLRenderer" target="_blank">WebGLRenderer</a> it takes canvas property.
 <br>
 First, you need to add 'canvas' tag in your body html.
 
@@ -155,7 +155,7 @@ const renderer = new THREE.WebGLRenderer({
 
 ![Three.js]({{site.baseurl}}/images/02/render.jpg)
 *screenshot*
-Then you will see the render section in the browser, if you open live server. But..wait, it's too samll tho. So we need to define render ratio by using 🔗 <a href="https://threejs.org/docs/index.html?q=render#api/en/renderers/WebGLRenderer.setSize" traget="_blank">.setSize()</a> method.
+Then you will see the render section in the browser, if you open live server. But..wait, it's too samll tho. So we need to define render ratio by using 🔗 <a href="https://threejs.org/docs/index.html?q=render#api/en/renderers/WebGLRenderer.setSize" target="_blank">.setSize()</a> method.
 <br>
 
 {% highlight js%}
@@ -166,7 +166,7 @@ renderer.setSize(sizes.width, sizes.height);
 *screenshot*
 
 And now it's bigger.Then let's move on to render. By usign
-🔗 <a href="https://threejs.org/docs/index.html?q=render#api/en/renderers/WebGLRenderer.render" traget="_blank">.render()</a> method, we will render scene and camera.
+🔗 <a href="https://threejs.org/docs/index.html?q=render#api/en/renderers/WebGLRenderer.render" target="_blank">.render()</a> method, we will render scene and camera.
 <br>
 
 {% highlight js%}
@@ -195,4 +195,4 @@ camera.position.y = 1;
 ![Three.js]({{site.baseurl}}/images/02/cube.jpg)
 *3D Cube*
 
-🔗 <a href="https://kimbumi.github.io/threejs/basic/index.html" traget="_blank">Demo</a> 
+🔗 <a href="https://kimbumi.github.io/threejs/basic/index.html" target="_blank">Demo</a>

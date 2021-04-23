@@ -22,22 +22,17 @@ Hit the download as you see in the above picture and it will give you .zip file
 
 
 ![Three.js]({{site.baseurl}}/images/02/min.jpg)
-After you uncompress it, take one file called three.min.js and put into your project directory.
-
-And navigate to the index.html and write those scripts (don't forget to load other scripts before your script)
-{% highlight html %}
-<body>
-    <script src="three.min.js"></script>
-    <script src="main.js"></script>
-</body>
-{% endhighlight %}
+<br>
+<br>
+After you uncompress it, take one file called three.min.js and put into your project directory. Navigate to your index.html and write script tags to enable three.min.js file, main.js file. (don't forget to load other scripts before your script)
 
 Let's test if our script works well by using .log(THREE). That's all we need for now and let's create 3d scene.
+
+
 {% highlight js%}
 // THREE contains most of classes and properties for three.js
 // it's uppercase
 console.log(THREE);
-
 /* And you can see the object and three.js classes in the console 
 Object
 ACESFilmicToneMapping: 4
@@ -57,7 +52,6 @@ AnimationObjectGroup: class Fc
 AnimationUtils: {arraySlice: ƒ, convertArray: ƒ, isTypedArray: ƒ, getKeyframeOrder: ƒ, sortedArray: ƒ, …}
 ArcCurve: class ol
 */
-
 {% endhighlight %}
 
 
@@ -68,6 +62,7 @@ ArcCurve: class ol
 * a Renderer
 
 #### 1. Scene
+
 {% highlight js%}
 //Scene
 const scene = new THREE.Scene();
@@ -78,26 +73,26 @@ const scene = new THREE.Scene();
 🔗 <a href="https://threejs.org/docs/index.html?q=mesh#api/en/objects/Mesh.geometry" target="_blank">Mesh</a>
 , class representing triangular polygon mesh based objects. Also serves as a base for other classes such as SkinnedMesh.
 
-{% highlight js%}
+{% highlight js %}
 //Code ex from three.js documentation
-
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
 const mesh = new THREE.Mesh( geometry, material );
 scene.add( mesh );
 {% endhighlight %}
+
 🔗 <a href="https://threejs.org/docs/index.html?q=box#api/en/geometries/BoxGeometry" target="_blank">BoxGeometry</a>
 <br>
 🔗 <a href="https://threejs.org/docs/index.html?q=meshbasi#api/en/materials/MeshBasicMaterial" target="_blank">MeshBasicMaterial</a>
 
 My code for mesh and don't forget to add to the scene! always!
-{% highlight js%}
+
+{% highlight js %}
 //Cube
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({ color: 'blue' });
 const mesh = new THREE.Mesh( geometry, material);
 scene.add(mesh);
-
 {% endhighlight %}
 
 #### 3. Camera
@@ -133,19 +128,11 @@ scene.add(camera);
 
 🔗 <a href="https://threejs.org/docs/index.html?q=renderer#api/en/renderers/WebGLRenderer" target="_blank">WebGLRenderer</a> it takes canvas property.
 <br>
-First, you need to add 'canvas' tag in your body html.
-
-{% highlight html%}
-<body>
-    <canvas class="webgl"></canvas>
-    <script src="three.min.js"></script>
-    <script src="main.js"></script>
-</body>
-{% endhighlight %}
+First, you need to add 'canvas' tag in your body html. Then give it class named "webgl". After it, write codes in your js file as you see below.
 
 
 
-{% highlight js%}
+{% highlight js %}
 //Renderer
 const canvas = document.querySelector('.webgl');
 const renderer = new THREE.WebGLRenderer({
@@ -158,7 +145,7 @@ const renderer = new THREE.WebGLRenderer({
 Then you will see the render section in the browser, if you open live server. But..wait, it's too samll tho. So we need to define render ratio by using 🔗 <a href="https://threejs.org/docs/index.html?q=render#api/en/renderers/WebGLRenderer.setSize" target="_blank">.setSize()</a> method.
 <br>
 
-{% highlight js%}
+{% highlight js %}
 renderer.setSize(sizes.width, sizes.height);
 {% endhighlight %}
 
@@ -169,7 +156,7 @@ And now it's bigger.Then let's move on to render. By usign
 🔗 <a href="https://threejs.org/docs/index.html?q=render#api/en/renderers/WebGLRenderer.render" target="_blank">.render()</a> method, we will render scene and camera.
 <br>
 
-{% highlight js%}
+{% highlight js %}
 renderer.render(scene, camera);
 {% endhighlight %}
 
@@ -178,7 +165,7 @@ As soon as you render it, you will find out nothing is seen on the screen but on
 
 #### Getting position of camera moved
 
-{% highlight js%}
+{% highlight js %}
 //Camera
 const camera = new THREE.PerspectiveCamera(75, sizes.width/sizes.height);
 scene.add(camera);

@@ -24,7 +24,7 @@ Hit the download as you see in the above picture and it will give you .zip file
 ![Three.js]({{site.baseurl}}/images/02/min.jpg)
 After you uncompress it, take one file called three.min.js and put into your project directory.
 
-And navigate to the index.html and write those scripts (don't forget to load other script tag after your script)
+And navigate to the index.html and write those scripts (don't forget to load other scripts before your script)
 {% highlight html %}
 <body>
     <script src="three.min.js"></script>
@@ -192,4 +192,7 @@ camera.position.y = 1;
 
 #### Finally, we done creating a basic object into our web browser!🔷
 
-<p><iframe src="https://kimbumi.github.io/threejs/basic/index.html" width="800" height="600" frameborder="0" allowfullscreen></iframe></p>
+![Three.js]({{site.baseurl}}/images/02/cube.jpg)
+*3D Cube*
+
+🔗 <a href="https://kimbumi.github.io/threejs/basic/index.html">Demo</a> 

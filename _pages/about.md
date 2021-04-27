@@ -5,7 +5,7 @@ permalink: /about/
 image: '/images/heroimg.jpg'
 ---
 
-> Outside work I'm a film lover, traveler and coffee lover! I do write code, make YouTube videos for fun. And I support 🌈 women's empowerment 💪🏼
+> Hello, this website is still under construction. I found some issues😵 so I'm workng on it🛠
 >
 <br>
 
